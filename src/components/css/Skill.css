@@ -1,0 +1,68 @@
+.section-skill {
+  padding: 60px 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.skill-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-family: 'Geogia, serif';
+  font-size: 2.5rem;
+  color: #643905; /* 純色深棕色 */
+  position: relative;
+}
+
+.skill-title::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0; /* 初始寬度為 0 */
+  margin: 10px auto 0;
+  background-color: #643905; /* 與文字同色 */
+  border-radius: 2px;
+  transition: width 0.8s ease-in-out;
+}
+
+.skill-title.animate::after {
+  width: 40px; /* 出現後的底線長度 */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marqueeWrapper {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marqueeAnimation {
+  display: inline-flex;
+  animation: scroll 10s linear infinite;
+}
+
+.marqueeWrapper:hover .marqueeAnimation {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

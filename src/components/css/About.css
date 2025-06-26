@@ -1,0 +1,12 @@
+.section-about {
+  color: white; /* 讓文字顯眼 */
+  padding: 40px;
+  background-image: url('../../assets/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5); /* 灰黑色半透明遮罩 */
+  background-blend-mode: darken; /* 將黑色與背景圖融合，讓圖變暗 */
+  padding-top: 50px;
+  padding-bottom: 50px;
+}

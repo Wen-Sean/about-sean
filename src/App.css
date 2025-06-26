@@ -1,0 +1,14 @@
+.section-container {
+    max-width: 70% !important;
+}
+
+.main-background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5); /* 灰黑色半透明遮罩 */
+    background-blend-mode: darken; /* 將黑色與背景圖融合，讓圖變暗 */
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

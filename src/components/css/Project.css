@@ -1,0 +1,54 @@
+.section-project {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.project-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-family: 'Geogia, serif';
+  font-size: 2.5rem;
+  color: #643905; /* 純色深棕色 */
+  position: relative;
+}
+
+.project-title::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0; /* 初始寬度為 0 */
+  margin: 10px auto 0;
+  background-color: #643905; /* 與文字同色 */
+  border-radius: 2px;
+  transition: width 0.8s ease-in-out;
+}
+
+.project-title.animate::after {
+  width: 80px; /* 出現後的底線長度 */
+}
+
+.carousel-control-prev ,
+.carousel-control-next {
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  transform: translateY(100%);
+  opacity: 1; /* 確保箭頭顯示 */
+  filter: invert(100%);
+}
+
+/* 黑色箭頭 */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none !important;
+  width: 2rem;
+  height: 2rem;
+  background-color: black; /* 圓形黑底箭頭 */
+  mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 16 16'><path d='M11.354 1.646a.5.5 0 0 0-.708 0L4.5 8l6.146 6.354a.5.5 0 0 0 .708-.708L5.707 8l5.647-5.646a.5.5 0 0 0 0-.708z'/></svg>") center / contain no-repeat;
+}
+
+.carousel-control-next-icon {
+  transform: rotate(180deg); /* 翻轉為右箭頭 */
+}

@@ -1,0 +1,37 @@
+.section-experience {
+  background-color: #f8f9fa;}
+
+.experience-card {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+}
+
+.experience-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-family: 'Geogia, serif';
+  font-size: 2.5rem;
+  color: #643905; /* 純色深棕色 */
+  position: relative;
+}
+
+.experience-title::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0; /* 初始寬度為 0 */
+  margin: 10px auto 0;
+  background-color: #643905; /* 與文字同色 */
+  border-radius: 2px;
+  transition: width 0.8s ease-in-out;
+}
+
+.experience-title.animate::after {
+  width: 150px; /* 出現後的底線長度 */
+}

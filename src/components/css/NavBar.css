@@ -1,0 +1,39 @@
+.nav-link {
+    color: white !important;
+    display: flex !important;
+    align-items: center !important;
+    transition: color 0.2s, transform 0.2s !important;
+}
+.nav-link:hover {
+    color: #f8bf04 !important; /* 鼠標停駐反藍 */
+    transform: scale(0.9); /* 鼠標停駐縮小 */
+}
+.nav-link.active {
+    color: #f8bf04 !important;
+}
+.nav-icon {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.nav-title {
+    font-size: 25px !important;
+    font-family: 'Great Vibes';
+    font-weight: 900;
+    background: linear-gradient(to right, #ffb521, #ffec20);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.custom-navbar {
+  background-color: transparent !important;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  position: fixed !important;
+  width: 100%;
+}
+
+.custom-navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.85) !important; /* 捲動後變暗底 */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);        /* 下方陰影分界效果 */
+}
