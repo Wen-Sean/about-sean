@@ -56,7 +56,7 @@ function Contact() {
           <a href="https://www.instagram.com/_xiang_2112/" target="_blank" rel="noreferrer" className="social-icon">
             <FaInstagram />
           </a>
-          <a href="https://github.com/yourprofile" target="_blank" rel="noreferrer" className="social-icon">
+          <a href="https://github.com/Wen-Sean" target="_blank" rel="noreferrer" className="social-icon">
             <FaGithub />
           </a>
         </div>
