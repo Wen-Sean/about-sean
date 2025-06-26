@@ -1,6 +1,6 @@
 # AboutMeV2
 
-A personal portfolio website built with React to showcase my skills, experience, and projects.
+A personal portfolio website built with React to showcase my skills, experience, and projects. <br>
 Webside Link: https://wen-sean.github.io/about-sean/
 
 ## Features
