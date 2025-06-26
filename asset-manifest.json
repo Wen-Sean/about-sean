@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/about-sean/static/css/main.931eb871.css",
-    "main.js": "/about-sean/static/js/main.9b2a002a.js",
+    "main.js": "/about-sean/static/js/main.69735b23.js",
     "static/js/453.2a82e7ac.chunk.js": "/about-sean/static/js/453.2a82e7ac.chunk.js",
     "static/media/proj_about.png": "/about-sean/static/media/proj_about.3d2dacc8cc70aa68873a.png",
     "static/media/proj_piano.png": "/about-sean/static/media/proj_piano.8c6330a45509b81db50a.png",
@@ -24,11 +24,11 @@
     "static/media/great-vibes-greek-ext-400-normal.woff": "/about-sean/static/media/great-vibes-greek-ext-400-normal.452b2fdf08fb5a476c65.woff",
     "index.html": "/about-sean/index.html",
     "main.931eb871.css.map": "/about-sean/static/css/main.931eb871.css.map",
-    "main.9b2a002a.js.map": "/about-sean/static/js/main.9b2a002a.js.map",
+    "main.69735b23.js.map": "/about-sean/static/js/main.69735b23.js.map",
     "453.2a82e7ac.chunk.js.map": "/about-sean/static/js/453.2a82e7ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.931eb871.css",
-    "static/js/main.9b2a002a.js"
+    "static/js/main.69735b23.js"
   ]
 }
