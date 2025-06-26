@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/about-sean/static/css/main.931eb871.css",
+    "main.js": "/about-sean/static/js/main.9b2a002a.js",
+    "static/js/453.2a82e7ac.chunk.js": "/about-sean/static/js/453.2a82e7ac.chunk.js",
+    "static/media/proj_about.png": "/about-sean/static/media/proj_about.3d2dacc8cc70aa68873a.png",
+    "static/media/proj_piano.png": "/about-sean/static/media/proj_piano.8c6330a45509b81db50a.png",
+    "static/media/proj_2048.png": "/about-sean/static/media/proj_2048.76e89a4141efd60b2d90.png",
+    "static/media/bg.jpg": "/about-sean/static/media/bg.4bbf383016a1dbc770b0.jpg",
+    "static/media/great-vibes-latin-ext-400-normal.woff2": "/about-sean/static/media/great-vibes-latin-ext-400-normal.771ce16cad228d2b7332.woff2",
+    "static/media/bg.png": "/about-sean/static/media/bg.082edc7a1cda0ad98d36.png",
+    "static/media/great-vibes-latin-ext-400-normal.woff": "/about-sean/static/media/great-vibes-latin-ext-400-normal.63d8b0f73ac45e775d66.woff",
+    "static/media/great-vibes-cyrillic-400-normal.woff2": "/about-sean/static/media/great-vibes-cyrillic-400-normal.3591083f90922b3d6ca3.woff2",
+    "static/media/great-vibes-latin-400-normal.woff2": "/about-sean/static/media/great-vibes-latin-400-normal.085bfe0999c1ce7369e0.woff2",
+    "static/media/great-vibes-cyrillic-400-normal.woff": "/about-sean/static/media/great-vibes-cyrillic-400-normal.679aedcd74b6226d43b6.woff",
+    "static/media/great-vibes-latin-400-normal.woff": "/about-sean/static/media/great-vibes-latin-400-normal.01d158593352164f1ea3.woff",
+    "static/media/anton-latin-400.woff": "/about-sean/static/media/anton-latin-400.84f07224741a1af63f5c.woff",
+    "static/media/anton-latin-400.woff2": "/about-sean/static/media/anton-latin-400.8f4231c0cfa69e9a2b70.woff2",
+    "static/media/great-vibes-vietnamese-400-normal.woff2": "/about-sean/static/media/great-vibes-vietnamese-400-normal.ff4e03fe67dded1f531a.woff2",
+    "static/media/great-vibes-vietnamese-400-normal.woff": "/about-sean/static/media/great-vibes-vietnamese-400-normal.2a17a912d42039b5d9fe.woff",
+    "static/media/great-vibes-cyrillic-ext-400-normal.woff2": "/about-sean/static/media/great-vibes-cyrillic-ext-400-normal.db6c82acfc434206a15d.woff2",
+    "static/media/great-vibes-greek-ext-400-normal.woff2": "/about-sean/static/media/great-vibes-greek-ext-400-normal.6a9fd7a6c7d570ba975b.woff2",
+    "static/media/great-vibes-cyrillic-ext-400-normal.woff": "/about-sean/static/media/great-vibes-cyrillic-ext-400-normal.32f279aa3ab0c5c06594.woff",
+    "static/media/great-vibes-greek-ext-400-normal.woff": "/about-sean/static/media/great-vibes-greek-ext-400-normal.452b2fdf08fb5a476c65.woff",
+    "index.html": "/about-sean/index.html",
+    "main.931eb871.css.map": "/about-sean/static/css/main.931eb871.css.map",
+    "main.9b2a002a.js.map": "/about-sean/static/js/main.9b2a002a.js.map",
+    "453.2a82e7ac.chunk.js.map": "/about-sean/static/js/453.2a82e7ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.931eb871.css",
+    "static/js/main.9b2a002a.js"
+  ]
+}
